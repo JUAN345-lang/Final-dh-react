@@ -1,0 +1,47 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: 1fr;
+  background-color: #BE9E44;
+
+  position: sticky;
+  top: 0;
+}
+
+.logo-container {
+  grid-column: 2 / 4;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.button-options {
+  grid-column: 13 / 16;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+
+}
+
+.button {
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #f0d278;
+
+}
+
+
+.button:hover {
+  background-color: #ecdfb6;
+ }
+
+.logo-app {
+   width: 250px;
+}

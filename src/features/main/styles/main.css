@@ -1,0 +1,36 @@
+.main-container {
+  width: 100%;
+  background-size: cover;
+  height: 90vh;
+  background-position: right center;
+  display: grid;
+  grid-template-rows: repeat(12, 1fr);
+  grid-template-columns: repeat(15, 1fr);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(https://rently.blob.core.windows.net/hertz/Web/banner_home_slider_prestige.jpg);
+}
+
+.title-container {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  grid-column: 2 / 8;
+  grid-row: 2 / 3;
+}
+
+.search-container {
+  grid-column: 2 / 8;
+  grid-row: 4 / 12;
+  background-color: white;
+
+}
+
+.title {
+  font-size: 30px;
+  color: white;
+  margin: 0px;
+}
+
+.example-card {
+  width: 500px;
+  height: 300px;
+}
